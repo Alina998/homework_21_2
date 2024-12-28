@@ -1,10 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 </head>
 <body>
+<div class="row align-items-start">
+    <div class="col-2">
+        <div data-bs-theme="dark">
+            <div class="card" style="max-width: 16rem; height: 100vh;">
+                <h5><span class="badge text-bg-info mb-3 text-dark">В</span> Меню</h5>
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                        Главная
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">Категории</a>
+                    <a href="#" class="list-group-item list-group-item-action">Каталог</a>
+                    <a href="#" class="list-group-item list-group-item-action">Контакты</a>
+                </div>
+                <div class="btn-group position-absolute bottom-0 start-0">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        Пользователь
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Выход</a></li>
+                        <li><a class="dropdown-item" href="#">Профиль</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <header class="col-9  jumbotron jumbotron-fluid text-black text-center">
+        <div class="container">
+            <h1 class="display-4">Главная</h1>
+            <p class="lead">Вы находитесь на сайте, предназначенном для продажи товаров</p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Товар 1</h4>
+                        <h3>$100</h3>
+                        <p class="card-text">10 users included, 2GB of storage, Email support, Help center access</p>
+                        <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-outline-primary">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Товар 2</h4>
+                        <h3>$100</h3>
+                        <p class="card-text">10 users included, 2GB of storage, Email support, Help center access</p>
+                        <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-outline-primary">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Товар 3</h4>
+                        <h3>$100</h3>
+                        <p class="card-text">10 users included, 2GB of storage, Email support, Help center access</p>
+                        <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-outline-primary">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
 </body>
 </html>

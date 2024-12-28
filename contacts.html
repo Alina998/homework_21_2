@@ -1,10 +1,106 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
 </head>
 <body>
+<div class="card">
+    <div class="row">
+        <div class="col-md-2">
+            <div data-bs-theme="dark">
+                <div class="card" style="max-width: 16rem; height: 100vh;">
+                    <div data-bs-theme="dark">
+                        <h5><span class="badge text-bg-info mb-3 text-dark">В</span> Меню</h5>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                <svg id="i-home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16"
+                                     height="32"
+                                     fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                                     stroke-width="2">
+                                    <path d="M12 20 L12 30 4 30 4 12 16 2 28 12 28 30 20 30 20 20 Z"/>
+                                </svg>
+                                Главная
+                            </a> <a href="#" class="list-group-item list-group-item-action">Категории</a>
+                            <a href="#" class="list-group-item list-group-item-action">Каталог</a>
+                            <a href="#" class="list-group-item list-group-item-action active">Контакты</a>
+                        </div>
+                        <div class="btn-group position-absolute bottom-0 start-0">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                Пользователь
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Выход</a></li>
+                                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="col-10">
+        <div class="row text-center mt-5 mb-5">
+            <h1>Контакты</h1>
+        </div>
 
+        <div class="row pb-5">
+
+            <div class="col-6 px-4">
+
+                <div class="card">
+                    <div class="card-body">
+
+                        <form method="post">
+                            <label class="form-label">Имя</label>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" aria-label="name"
+                                       aria-describedby="basic-addon1" name="name">
+                            </div>
+
+                            <label for="email" class="form-label">Почта</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="email">@</span>
+                                <input type="email" class="form-control" aria-label="email"
+                                       aria-describedby="basic-addon1" name="email">
+                            </div>
+
+                            <label class="form-label">Сообщение</label>
+                            <div class="input-group">
+                                <textarea class="form-control" aria-label="With textarea" name="text"></textarea>
+                            </div>
+                            <br>
+
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-6 px-4">
+                <h3>Наши контакты</h3>
+                <p>While these feedback styles cannot be styled with CSS,
+                    you can still customize the feedback text through JavaScript</p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
